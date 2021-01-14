@@ -52,12 +52,8 @@ Na próxima semana, nosso conteúdo técnico será uma live onde o professor far
 
 ## 📅 Entrega
 
-Até dia 10/05 ás 23:59h.
-
-## :memo: Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Até dia 17/01/2021 ás 23:59h.
 
 ---
 
-Feito com ♥ by Juliano Alves :wave: 
+Feito com ♥ by meirejane :wave: 
