@@ -1,0 +1,10 @@
+:root {
+    --color-primary: #db0b65;
+    --color-black: #222222;
+    --color-grey: #717171;
+    --color-hover: #ebebeb71;
+}
+
+main {
+    margin: 1.56rem 0;
+}

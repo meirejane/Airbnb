@@ -1,0 +1,40 @@
+@import url('./settings.css');
+@import url('./generic.css'); 
+
+@font-face {
+    font-family: 'Circular Book';
+    src: url('./../fonts/Circular-Std-Book.woff');
+}
+
+@font-face {
+    font-family: 'Circular Medium';
+    src: url('./../fonts/Circular-Std-Medium.woff');
+}
+
+@font-face {
+    font-family: 'Circular Bold';
+    src: url('./../fonts/Circular-Std-Bold.woff');
+}
+
+ * {
+     padding: 0;
+     margin: 0;
+     outline: 0;
+     box-sizing: border-box;
+ }
+
+ html, body {
+     height: 100%;
+     text-rendering: optimizeLegibility;
+     -webkit-font-smoothing: antialiased;
+ }
+
+ body, input,a, button {
+     font-family: 'Circular Medium', Arial, Helvetica, sans-serif;
+     font-size: 0.9rem;
+     background-color: azure;
+ }
+
+
+ 
+

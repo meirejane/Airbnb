@@ -1,0 +1,143 @@
+@import url('./base.css');
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#header__corona {
+    background-color: #f7f7f7;
+    padding: 20px 24px;
+}
+
+.header__corona-title {
+    text-align: center;
+    font-family: 'Circular Book';
+}
+
+#header {
+    margin-top: 1.56rem;
+}
+
+.header__brand {
+    height: 46px;
+}
+
+.header__navbar {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__item a {
+    color: var(--color-black);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 18px;
+    border-radius: 50px;
+    transition: all 0.1s ease-in;
+}
+
+.navbar__item a:hover {
+    background-color: var(--color-hover);
+    
+}
+
+
+#locate {
+    margin-top: 1.59rem;
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search div {
+    margin-right: 20px;
+}
+
+#locate button {
+    background-color: var(--color-primary);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 120px;
+    height: 46px;
+    border-radius: 8px;
+}
+
+.locate__content {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #9999;
+    padding: 15px 14px;
+    width: 300px;
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+}
+
+.locate__content:target {
+    border: 1px solid rgb(34, 34, 34);
+}
+
+.locate__content input {
+    margin-top: 7px;
+    border: none;
+}
+
+.locate__content input::placeholder {
+    color: var(--color-grey);
+}
+
+.checkin__content {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #9999;
+    padding: 13px 14px;
+    width: 300px;
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+}
+
+.checkin__content input {
+    margin-top: 7px;
+    border: none;
+}
+
+#quartos {
+    margin-top: 30px;
+}
+
+.quartos__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.item img {
+    width: 100%;
+    height: 200px;
+}
+
+.item__name  {
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.item__description {
+    color: var(--color-grey);
+    font-family: 'Circular Book';
+}
+
+.item__price {
+    margin-top: 15px;
+    font-family: 'Circular Medium';
+    font-weight: 500;
+    color: var(--color-black);
+}
